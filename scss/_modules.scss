@@ -1,0 +1,36 @@
+.button {
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  letter-spacing: 0.005em;
+  &:hover {
+    box-shadow: 1px 2px 5px 1px rgb(75 93 104 / 35%);
+  }
+
+  &--white {
+    width: 210px;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  }
+  &--white > i {
+    color: #9c69e2;
+  }
+
+  &--purple {
+    width: 170px;
+    height: 60px;
+    background: #9c69e2;
+    color: #ffffff;
+  }
+
+  &--pink {
+    width: 170px;
+    height: 60px;
+    background: #f063b8;
+    color: #ffffff;
+    margin-right: 30px;
+  }
+}

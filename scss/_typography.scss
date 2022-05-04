@@ -1,0 +1,32 @@
+.heading {
+  font-family: $title-font-family;
+  color: $title-color;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  max-width: 645px;
+  margin: 0;
+}
+
+.testimonials__quote {
+  font-size: $medium-font-size;
+  text-align: left;
+
+  &-autor {
+    font-weight: 500;
+    color: $title-color;
+    letter-spacing: 0.005em;
+    line-height: 29px;
+    margin: 0;
+  }
+
+  &-text {
+    line-height: 32px;
+    font-weight: 400;
+    margin: 20px 0 50px;
+  }
+}
+
+.subtitle {
+  margin: 109px 0 85px 93px;
+}
