@@ -1,0 +1,171 @@
+@media screen and (max-width: 1110px) {
+  body {
+    margin: 0 20px;
+  }
+  .menu {
+    margin: 0;
+  }
+
+  .hero {
+    align-items: center;
+
+    &__image {
+      position: unset;
+    }
+    &__desc {
+      margin: 25px 0;
+    }
+  }
+  .header__menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .heading {
+    font-size: 50px;
+    line-height: 58px;
+  }
+
+  .section {
+    &__heading {
+      font-size: 35px;
+      line-height: 42px;
+    }
+
+    &__text {
+      line-height: 25px;
+    }
+    &__wrapper {
+      &-pic {
+        position: unset;
+      }
+      &-text {
+        position: unset;
+      }
+      &-desc {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      &-item {
+        &--blue {
+          background-position: left;
+        }
+      }
+    }
+  }
+  .facebook:focus {
+    fill: #3b5998;
+    opacity: 80%;
+  }
+  .twitter:focus {
+    fill: #1da1f2;
+    opacity: 80%;
+  }
+  .instagram:focus {
+    fill: url(#rg);
+    opacity: 80%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .hero {
+    justify-content: center;
+  }
+
+  .menu {
+    margin: 20px 0;
+  }
+
+  .section {
+    &__wrapper {
+      margin: 0;
+
+      &-subtitle {
+        font-size: 20px;
+      }
+
+      &-item {
+        margin-bottom: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        &--lazure {
+          background-position: center;
+        }
+
+        &--purple {
+          background-position: bottom;
+        }
+
+        &--pink {
+          background-position: center;
+        }
+
+        &--blue {
+          background-position: center;
+        }
+      }
+    }
+
+    &__try {
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+
+    &__text-wrapper {
+      text-align: center;
+    }
+
+    &__heading--left {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+
+  .testimonials {
+    max-width: 330px;
+    flex-direction: column;
+    align-items: center;
+
+    &__avatar {
+      margin: 0;
+    }
+
+    &__quote {
+      margin: 10px 0 0;
+      text-align: center;
+
+      &-text {
+        line-height: 25px;
+      }
+    }
+  }
+
+  .subtitle {
+    margin: 109px auto 85px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .buttons {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .button {
+    margin-bottom: 10px;
+    &--pink {
+      margin-left: 20px;
+    }
+  }
+
+  .menu__footer {
+    margin-top: 10px;
+  }
+
+  .container__footer {
+    justify-content: space-around;
+    align-items: center;
+  }
+}

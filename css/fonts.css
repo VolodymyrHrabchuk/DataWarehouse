@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Book.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/Helvetica-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/Helvetica.ttf);
+  font-weight: 400;
+}
